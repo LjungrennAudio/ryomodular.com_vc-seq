@@ -1,0 +1,7 @@
+10 pin IDC expansion header
+
+1 pin  (1):          clock
+3 pins (2,3,4):      3 bit bus
+1 pin  (5):          disable/no step active
+3 pins (6,7,8):      GND
+2 pins (9,10):       5V (TO220 regulator on the controlling seq)

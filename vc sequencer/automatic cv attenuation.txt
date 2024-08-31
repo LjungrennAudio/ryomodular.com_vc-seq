@@ -1,0 +1,11 @@
+Automatic cv attenuation and offset.
+
+Arduino controlled.
+
+Attenuator and offset is controlled via digital pots or Arduino PWM out.
+Input signal goes through attenuator and offset before ADC inputs.
+
+1 ADC input to detect if max volt is under 5V or min volt is over 0V. Works together with a frequency counter to check if ca 5V or ca 0V havent been reached during the last X cycles.
+
+1 ADC input voltage divided down a bit, to detect if max volt is over 5V.
+1 ADC input voltage inverted, to detect negative volt.
