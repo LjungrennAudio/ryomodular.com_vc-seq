@@ -1,0 +1,10 @@
+VC Sequencer
+ 
+Clock sync above audio rates. Overall latency approx 5us (0.005ms) to approx 10us (0.01ms) depending on output voltage change.
+
+CV mode reaches thru the whole audio range extending the VC Sequencers funtionality into also being a 3 bit hands on waveshaper.
+
+- In FWD/REV modes the CV/Clock input use a schmitt trigger with a window of 0.2V; the same window applies to the Reset input.
+- In CV mode the CV/Clock input uses a set of 7 schmitt triggers, each step being separated by aapprox 0.625V.
+
+Width: 10hp
